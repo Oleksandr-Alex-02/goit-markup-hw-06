@@ -682,6 +682,12 @@ footer a {
   fill: #ffffff;
 }
 
+.div-subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*                                modal-section */
 
 .modal-section {
@@ -710,7 +716,7 @@ footer a {
   border-radius: 4px;
 }
 
-.modal-window button {
+.button-modal {
   position: absolute;
   top: 8px;
   right: 8px;
