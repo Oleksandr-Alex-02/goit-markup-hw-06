@@ -504,24 +504,25 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <div>
+        <div role="group">
           <form>
-            <label>
-              Имя
-              <input type="text" placeholder="./images/icons.svg#close" />
-            </label>
-            <label>
-              Телефон
-              <input type="text" />
-            </label>
-            <label>
-              Почта
-              <input type="text" />
-            </label>
-            <label>
-              Комментарий
-              <textarea rows="8" placeholder="Комментарий"> </textarea>
-            </label>
+            <div>
+              <label for="text"> Имя </label>
+              <input class="sks" type="text" id="text" placeholder="Имя" />
+            </div>
+            <div>
+              <label for="tel"> Телефон </label>
+              <input type="tel" id="tel" placeholder="tel" />
+            </div>
+            <div>
+              <label for="email"> Почта </label>
+              <input type="email" id="email" placeholder="email" />
+            </div>
+            <div>
+              <label for="textarea"> Комментарий </label>
+              <textarea rows="8" id="textarea" placeholder="Комментарий">
+              </textarea>
+            </div>
           </form>
         </div>
         <button type="submit">
