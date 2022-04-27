@@ -1,4 +1,4 @@
-.modal-section {
+modal-window .modal-section {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -30,6 +30,10 @@
   top: 8px;
   right: 8px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 30px;
   height: 30px;
 
@@ -37,12 +41,6 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-}
-
-.button-modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
